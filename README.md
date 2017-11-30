@@ -3,7 +3,7 @@
 
 jiebaR提供了四种分词模式，可以通过函数worker()来初始化分词引擎，使用函数segment()进行分词。具体使用?worker查看帮助
 
- hezhao= '落英缤纷我的灵魂和着节奏穿梭行走幻觉爱上这花瓣'
+> hezhao= '落英缤纷我的灵魂和着节奏穿梭行走幻觉爱上这花瓣'
 > mixseg =worker() #使用默认参数，混合模型（MixSegment）
 > segment(hezhao, mixseg)
 #等价于mixseg[text]
